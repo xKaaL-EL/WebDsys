@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Styling the navigation bar.*/
+nav {
+  background-color: #7952B3;
+  padding: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+nav li {
+  margin-top: 11px;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+nav li a:hover {
+  border-bottom: 4px solid rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 23px;
+}
+
+nav #name:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #7952B3;
+}
+
+ul {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+span {
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+/*Logo styling*/
+#name {
+  text-decoration: none;
+  color: white;
+  border: 4px solid white;
+  border-radius: 7px;
+  padding: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 40px;
+  top: 21px;
+}
+
+/*Styling the heading of the webpage.*/
+.heading {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  top: 100px;
+  font-size: 55px;
+}
+
+/*Styling the outer or the main wrapper.*/
+.mainWrapper {
+  position: relative;
+  top: 100px;
+  border: 5px solid black;
+  padding: 50px 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  max-width: 90%;
+  min-width: 50%;
+  border-radius: 40px
+}
+
+/*Styling the heading of all the three sub-divs.*/
+.sectionHeading {
+  display: block;
+  margin: 8px 0;
+  font-weight: bold;
+  color: #5A35C7;
+  font-size: 45px
+}
+
+/*Styling the first sub-div.*/
+.color {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px solid black;
+  border-radius: 7px;
+  display: inline-block;
+  min-width: 50%;
+  margin: 20px;
+  padding: 40px;
+  max-width: 80%
+}
+
+.colorBox {
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+}
+
+#green {
+  background-color: #228b22;
+}
+
+#red {
+  background-color: #dc143c;
+}
+
+#blue {
+  background-color: #6495ed;
+}
+
+#orange {
+  background-color: #ff7f50;
+}
+
+#yellow {
+  background-color: #ffff00;
+}
+
+#palegreen {
+  background-color: #98fb98;
+}
+
+#mediumspringgreen {
+  background-color: #00fa9a;
+}
+
+#dodgerblue {
+  background-color: #1e90ff;
+}
+
+#rebeccapurple {
+  background-color: #663399;
+}
+
+#tomato {
+  background-color: #ff6347;
+}
+
+/*Styling the second sub-div.*/
+.fonts {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px solid black;
+  border-radius: 7px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 40px;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+.typoBox {
+  display: inline-block;
+  margin: 20px;
+  padding: 1px 13px;
+}
+
+#raleway {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #141C3A
+}
+
+#oswald {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #1E2125
+}
+
+#roboto {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #141C3A
+}
+
+#lato {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #1E2125
+}
+
+#redrose {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #141C3A;
+}
+
+#merriweather {
+  opacity: 0.8;
+  color: white;
+  padding: 25px;
+  background-color: #1E2125;
+}
+
+#head1 {
+  font-weight: 200;
+  font-style: italic;
+}
+
+#head2 {
+  font-weight: 400;
+}
+
+#head3 {
+  font-weight: 900;
+}
+
+#ftv1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#ftv2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+#ftv3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+#ftv4 {
+  font-family: 'Lato', sans-serif;
+}
+
+#ftv5 {
+  font-family: 'Red Rose', cursive;
+}
+
+#ftv6 {
+  font-family: 'Merriweather', serif;
+}
+
+.typoHeading {
+  padding: 10px 0;
+}
+
+.typoHeading p {
+  padding-bottom: 8px;
+}
+
+/*Styling the third sub-div.*/
+thead {
+  color: white;
+  background-color: #7952B3;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.textStyles {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px solid black;
+  border-radius: 7px;
+  margin-top: 40px;
+  display: inline-block;
+  padding: 40px;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+.tableStyle th, .tableStyle td {
+  padding: 8px;
+  margin: 10px;
+}
+
+.first {
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.tableStyle tr {
+  border-bottom: 3px solid black;
+}
+
+#rowBod {
+  border-top: 3px solid black;
+}
+
+#lastelement {
+  padding: 15px;
+}
+
+/*Styling the footer element.*/
+.foot {
+  position: fixed;
+  background-color: #7952B3;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  padding: 13px;
+  bottom: 0px;
+  color: white;
+}
+
+.foot a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.foot a:hover {
+  border-bottom: 3px solid white;
+  font-size: 23px;
+  color: white;
+}
